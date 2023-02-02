@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,800;1,500;1,600;1,800&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body id="University">
+    <section class="Aj-sub-header">
+       <nav>
+        <a href=""><img src="po.gif"></a>
+       <div class="Aj-nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+
+    <h1>About Us</h1>
+    </section>
+   <!--------- about us content --------->
+   <section class="Aj-about-us">
+    <div class="Aj-row">
+        <div class="Aj-about-col">
+            <h1>We are the world's largest university</h1>
+            <p>The California Community College System is the second largest university system in the world, 
+               with a total enrollment of 2.1 million students. The system has its roots in the early 1900s
+               when the government saw a need to create a system of academic and vocational schools in order to fill a gap 
+               in the California workforce. Today, the system consists of 114 colleges..</p>
+                <a href="" class="Aj-hero-btn Aj-red-btn" >EXPLORE NOW</a>
+        </div>
+        <div class="Aj-about-col">
+            <img src="960x0.jpg">
+        </div>
+
+    </div>
+
+   </section>
+   
+
+  <!-- --- Footer ------->
+<section class="Aj-footer">
+    <h4>About Us</h4>
+    <p>If you want to now more about us, you also can search for us in social networks whene you can ask us <br> about eanithing you are intrest to now about this University.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            
+
+            
+        </div>
+        <p>Made with <i class="fa fa-heart-o"> from bigest University</i> </p>
+</section>
+
+
+
+
+    <!-------- JavaScript for Toggle Menu -------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right ="0";
+        }
+        function hideMenu() {
+            navLinks.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
