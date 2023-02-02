@@ -86,7 +86,7 @@ nav .fa{
     display: none;
 }
 
-@media(max-width: 700px){
+@media(max-width: 800px){
     .Aj-text-box h1 {
         font-size: 20px;
     }
@@ -107,7 +107,7 @@ nav .fa{
     nav .fa{
         display: block;
         color: #fff;
-        margin: 32px;
+        margin: 22px;
         cursor: pointer;
     }
     .Aj-nav-links ul{
